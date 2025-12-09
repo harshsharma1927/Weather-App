@@ -1,4 +1,8 @@
-.searchbox{
+.searchbox {
+    background-color: aqua;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
     text-align: center;
     margin-bottom: 25px;
 }

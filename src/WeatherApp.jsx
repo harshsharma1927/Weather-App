@@ -21,7 +21,8 @@ let updateInfo= (newinfo) =>{
 
     return (
     <div style={{textAlign: "center"}}>
-        <h2>Know The Weather</h2>
+        <h1>Know The Weather</h1>
+        <h2 style={{color:"yellow"}}>By WeatherSaathi</h2>
         <SearchBox updateInfo={updateInfo}/>
         <InfoBox info ={weatherInfo}/>
     </div>
